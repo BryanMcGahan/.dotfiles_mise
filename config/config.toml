@@ -26,6 +26,7 @@ zshrc    = "activate" # full interactive activation
 "brew:lazygit"     = {os = ["macos"]}
 "brew:neovim"      = {os = ["macos"]}
 "brew:starship"    = {os = ["macos"]}
+"brew:tmux"        = {os = ["macos"]}
 "brew-cask:obsidian"    = {os = ["macos"]}
 
 [bootstrap.macos.defaults]
