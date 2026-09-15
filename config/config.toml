@@ -25,6 +25,7 @@ zshrc    = "activate" # full interactive activation
 "brew:gh"          = "latest"
 "brew:lazygit"     = "latest"
 "brew:neovim"      = "latest"
+"brew:starship"    = "latest"
 # "mas:497799835" = "latest"       # App Store apps (needs mas)
 
 [bootstrap.macos.dock]
