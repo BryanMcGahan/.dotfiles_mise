@@ -1,0 +1,36 @@
+[tools]
+go = "latest"
+node = "latest"
+
+[dotfiles]
+"~/.config/mise" = { mode = "track" }
+"~/.zshrc" = { mode = "track" }
+
+[bootstrap.services.mise-history]
+builtin = "history-watch"
+
+[bootstrap.mise_shell_activate]
+zprofile = "shims"    # good for non-interactive / Neovim
+zshrc    = "activate" # full interactive activation
+
+[bootstrap.packages]
+"brew:ripgrep"     = {os = ["macos"]}
+"brew:fd"          = {os = ["macos"]}
+"brew:bat"         = {os = ["macos"]}
+"brew:eza"         = {os = ["macos"]}
+"brew:fzf"         = {os = ["macos"]}
+"brew:zoxide"      = {os = ["macos"]}
+"brew:jq"          = {os = ["macos"]}
+"brew:gh"          = {os = ["macos"]}
+"brew:lazygit"     = {os = ["macos"]}
+"brew:neovim"      = {os = ["macos"]}
+"brew:starship"    = {os = ["macos"]}
+
+[bootstrap.macos.dock]
+autohide = true
+orientation = "bottom"
+tilesize = 48
+
+[bootstrap.macos.finder]
+show_all_files = true
+show_pathbar = true
