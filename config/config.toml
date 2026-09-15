@@ -4,6 +4,7 @@ node = "latest"
 
 [dotfiles]
 "~/.bin" = { mode = "track" }
+"~/.config/ghostty" = { mode = "track" }
 "~/.config/mise" = { mode = "track" }
 "~/.tmux.conf" = { mode = "track" }
 "~/.zshrc" = { mode = "track" }
