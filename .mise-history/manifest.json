@@ -32,6 +32,12 @@
       "variants": []
     },
     {
+      "path": "home/.gitconfig",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.tmux.conf",
       "autosave": true,
       "encrypt": false,

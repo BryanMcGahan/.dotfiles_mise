@@ -17,6 +17,7 @@ branch = "main"
 "~/.config/mise" = { mode = "track" }
 "~/.config/nvim" = { mode = "track" }
 "~/.config/starship.toml" = { mode = "track" }
+"~/.gitconfig" = { mode = "track" }
 "~/.tmux.conf" = { mode = "track" }
 "~/.zshrc" = { mode = "track" }
 
