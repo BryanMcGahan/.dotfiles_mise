@@ -5,6 +5,7 @@ node = "latest"
 [dotfiles]
 "~/.bin" = { mode = "track" }
 "~/.config/mise" = { mode = "track" }
+"~/.tmux.conf" = { mode = "track" }
 "~/.zshrc" = { mode = "track" }
 
 [bootstrap.services.mise-history]
