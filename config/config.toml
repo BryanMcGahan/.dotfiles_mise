@@ -35,3 +35,4 @@ tilesize = 48
 [bootstrap.macos.finder]
 show_all_files = true
 show_pathbar = true
+preferred_view_style = "list"
