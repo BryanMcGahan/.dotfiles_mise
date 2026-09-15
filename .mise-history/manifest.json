@@ -20,6 +20,18 @@
       "variants": []
     },
     {
+      "path": "home/.config/nvim",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "home/.config/starship.toml",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.tmux.conf",
       "autosave": true,
       "encrypt": false,

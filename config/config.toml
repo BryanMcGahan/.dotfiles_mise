@@ -1,11 +1,22 @@
 [tools]
 go = "latest"
 node = "latest"
+python = "latest"
+rust = "latest"
+
+[settings.history]
+sync = "manual"
+
+[history.origin]
+url = "git@github.com:BryanMcGahan/.dotfiles_mise.git"
+branch = "main"
 
 [dotfiles]
 "~/.bin" = { mode = "track" }
 "~/.config/ghostty" = { mode = "track" }
 "~/.config/mise" = { mode = "track" }
+"~/.config/nvim" = { mode = "track" }
+"~/.config/starship.toml" = { mode = "track" }
 "~/.tmux.conf" = { mode = "track" }
 "~/.zshrc" = { mode = "track" }
 
@@ -13,36 +24,52 @@ node = "latest"
 builtin = "history-watch"
 
 [bootstrap.mise_shell_activate]
-zprofile = "shims"    # good for non-interactive / Neovim
-zshrc    = "activate" # full interactive activation
+zprofile = "shims"
+zshrc = "activate"
 
 [bootstrap.packages]
-"brew:ripgrep"     = {os = ["macos"]}
-"brew:fd"          = {os = ["macos"]}
-"brew:bat"         = {os = ["macos"]}
-"brew:eza"         = {os = ["macos"]}
-"brew:fzf"         = {os = ["macos"]}
-"brew:zoxide"      = {os = ["macos"]}
-"brew:jq"          = {os = ["macos"]}
-"brew:gh"          = {os = ["macos"]}
-"brew:lazygit"     = {os = ["macos"]}
-"brew:neovim"      = {os = ["macos"]}
-"brew:starship"    = {os = ["macos"]}
-"brew:tmux"        = {os = ["macos"]}
-"brew:bottom"      = {os = ["macos"]}
-"brew:anomalyco/tap/opencode" = {os = ["macos"]}
-"brew-cask:obsidian"    = {os = ["macos"]}
+"brew:ripgrep" = { os = ["macos"] }
+"brew:fd" = { os = ["macos"] }
+"brew:bat" = { os = ["macos"] }
+"brew:eza" = { os = ["macos"] }
+"brew:fzf" = { os = ["macos"] }
+"brew:zoxide" = { os = ["macos"] }
+"brew:jq" = { os = ["macos"] }
+"brew:gh" = { os = ["macos"] }
+"brew:lazygit" = { os = ["macos"] }
+"brew:neovim" = { os = ["macos"] }
+"brew:starship" = { os = ["macos"] }
+"brew:tmux" = { os = ["macos"] }
+"brew:bottom" = { os = ["macos"] }
+"brew:just" = { os = ["macos"] }
+"brew:anomalyco/tap/opencode" = { os = ["macos"] }
+"brew-cask:ghostty" = { os = ["macos"] }
+"brew-cask:font-jetbrains-mono-nerd-font" = { os = ["macos"] }
+"brew-cask:obsidian" = { os = ["macos"] }
 
-[bootstrap.macos.defaults]
-"com.apple.finder" = {
-  FXPreferredViewStyle = "Nlsv",          # explicit list view
-  _FXSortFoldersFirst  = true
-}
+"pacman:ripgrep" = { os = ["linux"] }
+"pacman:fd" = { os = ["linux"] }
+"pacman:bat" = { os = ["linux"] }
+"pacman:eza" = { os = ["linux"] }
+"pacman:fzf" = { os = ["linux"] }
+"pacman:zoxide" = { os = ["linux"] }
+"pacman:jq" = { os = ["linux"] }
+"pacman:github-cli" = { os = ["linux"] }
+"pacman:lazygit" = { os = ["linux"] }
+"pacman:neovim" = { os = ["linux"] }
+"pacman:starship" = { os = ["linux"] }
+"pacman:tmux" = { os = ["linux"] }
+"pacman:bottom" = { os = ["linux"] }
+"pacman:just" = { os = ["linux"] }
+"pacman:zsh" = { os = ["linux"] }
+"pacman:ttf-jetbrains-mono-nerd" = { os = ["linux"] }
 
 [bootstrap.macos.dock]
 autohide = true
 orientation = "bottom"
-tilesize = 16
+tilesize = 32
+magnification = true
+largesize = 64
 apps = [
 	"/Applications/Ghostty.app",
 	"/Applications/Safari.app",
@@ -52,11 +79,11 @@ apps = [
 show_all_files = true
 show_pathbar = true
 preferred_view_style = "list"
+sort_folders_first = true
 
 [bootstrap.macos.keyboard]
 automatic_capitalization = false
 automatic_spelling_correction = false
 
-
 [bootstrap.repos]
-"~/personal/bwmmwb" = {url = "git@github.com:BryanMcGahan/bwmmwb.git"}
+"~/personal/bwmmwb" = { url = "git@github.com:BryanMcGahan/bwmmwb.git" }
