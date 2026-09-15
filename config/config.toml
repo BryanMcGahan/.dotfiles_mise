@@ -30,7 +30,6 @@ zshrc    = "activate" # full interactive activation
 
 [bootstrap.macos.dock]
 autohide = true
-orientation = "left"
 tilesize = 48
 
 [bootstrap.macos.finder]
