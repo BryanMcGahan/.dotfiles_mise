@@ -3,6 +3,7 @@ go = "latest"
 node = "latest"
 
 [dotfiles]
+"~/.bin" = { mode = "track" }
 "~/.config/mise" = { mode = "track" }
 "~/.zshrc" = { mode = "track" }
 
