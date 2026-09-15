@@ -30,6 +30,7 @@ zshrc    = "activate" # full interactive activation
 "brew:starship"    = {os = ["macos"]}
 "brew:tmux"        = {os = ["macos"]}
 "brew:bottom"      = {os = ["macos"]}
+"brew:anomalyco/tap/opencode" = {os = ["macos"]}
 "brew-cask:obsidian"    = {os = ["macos"]}
 
 [bootstrap.macos.defaults]
