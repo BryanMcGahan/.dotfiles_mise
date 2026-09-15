@@ -22,7 +22,5 @@
   ],
   "exclude": [],
   "recipients": [],
-  "permissions": {
-    "config/.config..swp": 384
-  }
+  "permissions": {}
 }
