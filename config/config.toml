@@ -36,3 +36,7 @@ tilesize = 16
 show_all_files = true
 show_pathbar = true
 preferred_view_style = "list"
+
+[bootstrap.macos.keyboard]
+automatic_capitalization = false
+automatic_spelling_correction = false
