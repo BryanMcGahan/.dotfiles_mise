@@ -33,7 +33,7 @@ orientation = "bottom"
 tilesize = 16
 apps = [
 	"/Applications/Ghostty.app",
-	"/Applications/Safari.app"
+	"/Applications/Safari.app",
 ]
 
 [bootstrap.macos.finder]
