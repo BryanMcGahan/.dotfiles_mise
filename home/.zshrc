@@ -1,4 +1,5 @@
 eval "$(/Users/bmcgahan/.local/bin/mise activate zsh)"
+eval "$(starship init zsh)"
 
 
 PATH=${PATH}:$HOME/.bin
