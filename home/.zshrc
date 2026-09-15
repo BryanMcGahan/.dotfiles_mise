@@ -13,4 +13,3 @@ PATH=${PATH}:$HOME/.bin
 
 export EDITOR=nvim
 export TERM=xterm-256color
-eval "$(/Users/bmcgahan/.local/bin/mise activate zsh)"
