@@ -29,7 +29,10 @@ zshrc    = "activate" # full interactive activation
 "brew-cask:obsidian"    = {os = ["macos"]}
 
 [bootstrap.macos.defaults]
-"com.apple.finder" = { _FXSortFoldersFirst = true }
+"com.apple.finder" = {
+  FXPreferredViewStyle = "Nlsv",          # explicit list view
+  _FXSortFoldersFirst  = true
+}
 
 [bootstrap.macos.dock]
 autohide = true
