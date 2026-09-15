@@ -30,7 +30,7 @@ zshrc    = "activate" # full interactive activation
 [bootstrap.macos.dock]
 autohide = true
 orientation = "bottom"
-tilesize = 48
+tilesize = 16
 
 [bootstrap.macos.finder]
 show_all_files = true
