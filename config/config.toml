@@ -42,7 +42,7 @@ show_all_files = true
 show_pathbar = true
 
 [boostrap.macos.defaults]
-"com.apple.finder = {AppleShowAllFiles = true, StandardViewSettings = {SettingsType = ExtendedListViewSettingsV2 }
+"com.apple.finder" = {AppleShowAllFiles = true, StandardViewSettings = {SettingsType = ExtendedListViewSettingsV2 }
 
 [bootstrap.macos.keyboard]
 automatic_capitalization = false
