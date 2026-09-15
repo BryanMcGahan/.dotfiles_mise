@@ -31,6 +31,10 @@ zshrc    = "activate" # full interactive activation
 autohide = true
 orientation = "bottom"
 tilesize = 16
+apps = [
+	"/Applications/Ghostty.app",
+	"/Applications/Safari.app"
+]
 
 [bootstrap.macos.finder]
 show_all_files = true
@@ -40,3 +44,4 @@ preferred_view_style = "list"
 [bootstrap.macos.keyboard]
 automatic_capitalization = false
 automatic_spelling_correction = false
+
