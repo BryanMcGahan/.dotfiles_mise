@@ -1,3 +1,4 @@
+eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(/Users/bmcgahan/.local/bin/mise activate zsh)"
 eval "$(starship init zsh)"
 
