@@ -84,6 +84,9 @@ sort_folders_first = true
 automatic_capitalization = false
 automatic_spelling_correction = false
 fn_state = true
+key_repeat = 2
+initial_key_repeat = 15
+press_and_hold = false
 
 
 [tasks.bootstrap]
