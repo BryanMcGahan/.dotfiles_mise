@@ -14,7 +14,6 @@ branch = "main"
 [dotfiles]
 "~/.bin" = { mode = "track" }
 "~/.config/ghostty" = { mode = "track" }
-"~/.config/mise" = { mode = "track" }
 "~/.config/nvim" = { mode = "track" }
 "~/.config/starship.toml" = { mode = "track" }
 "~/.gitconfig" = { mode = "track" }
