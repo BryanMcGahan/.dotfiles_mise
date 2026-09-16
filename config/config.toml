@@ -68,6 +68,7 @@ orientation = "bottom"
 tilesize = 16
 magnification = true
 largesize = 64
+mru_spaces = false
 apps = [
 	"/Applications/Ghostty.app",
 	"/Applications/Helium.app",
