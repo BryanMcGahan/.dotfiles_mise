@@ -60,6 +60,38 @@ zshrc = "activate"
 "pacman:zsh" = { os = ["linux"] }
 "pacman:ttf-jetbrains-mono-nerd" = { os = ["linux"] }
 
+
+[bootstrap.macos.defaults."NSGlobalDomain"]
+
+# Appearance
+AppleInterfaceStyle = "Dark"
+
+# Typing
+NSAutomaticCapitalizationEnabled = false
+NSAutomaticSpellingCorrectionEnabled = false
+NSAutomaticPeriodSubstitutionEnabled = false
+NSAutomaticQuoteSubstitutionEnabled = false
+NSAutomaticDashSubstitutionEnabled = false
+
+# Scrolling
+AppleMomentumScrollSupported = true
+
+# Save/open dialogs
+NSNavPanelExpandedStateForSaveMode = true
+NSNavPanelExpandedStateForSaveMode2 = true
+
+# File extensions
+AppleShowAllExtensions = true
+
+# Units / measurements
+AppleMeasurementUnits = "Inches"
+AppleMetricUnits = false
+
+
+# Window behavior
+NSWindowShouldDragOnGesture = true
+
+
 [bootstrap.macos.dock]
 autohide = true
 autohide_delay = 0
