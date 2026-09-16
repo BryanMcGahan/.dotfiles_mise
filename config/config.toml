@@ -39,7 +39,7 @@ zshrc = "activate"
 "brew:bottom" = { os = ["macos"] }
 "brew:just" = { os = ["macos"] }
 "brew:anomalyco/tap/opencode" = { os = ["macos"] }
-"brew:bitwarden" = {os = ["macos"]}
+"brew-cask:bitwarden" = {os = ["macos"]}
 "brew-cask:ghostty" = { os = ["macos"] }
 "brew-cask:font-jetbrains-mono-nerd-font" = { os = ["macos"] }
 "brew-cask:obsidian" = { os = ["macos"] }
