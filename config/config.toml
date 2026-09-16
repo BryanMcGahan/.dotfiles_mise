@@ -62,6 +62,8 @@ zshrc = "activate"
 
 [bootstrap.macos.dock]
 autohide = true
+autohide_delay = 0
+autohide_time_modifier = 0.5
 orientation = "bottom"
 tilesize = 16
 magnification = true
