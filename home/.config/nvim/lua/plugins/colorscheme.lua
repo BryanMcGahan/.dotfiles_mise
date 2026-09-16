@@ -14,4 +14,13 @@ return {
       colorscheme = "gruvbox",
     },
   },
+  {
+    "catppuccin/nvim",
+    as = "catppuccin",
+    require("catppuccin").setup({
+      background = {
+        dark = "mocha",
+      },
+    }),
+  },
 }
