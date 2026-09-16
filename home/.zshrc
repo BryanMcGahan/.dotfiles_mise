@@ -1,6 +1,6 @@
 eval "$(starship init zsh)"
 
-PATH=${PATH}:$HOME/.bin
+export PATH=${PATH}:$HOME/.bin
 
 alias ls="eza --icons=always"
 alias cat="bat"
@@ -12,3 +12,4 @@ export TERM=xterm-256color
 
 # opencode
 export PATH=/Users/bmcgahan/.opencode/bin:$PATH
+export PATH=/Users/bmcgahan/.local/bin:$PATH
