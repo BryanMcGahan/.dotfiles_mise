@@ -64,7 +64,7 @@ zshrc = "activate"
 [bootstrap.macos.defaults."NSGlobalDomain"]
 
 # Appearance
-AppleInterfaceStyle = "Light"
+AppleInterfaceStyle = "Dark"
 
 # Typing
 NSAutomaticCapitalizationEnabled = false
