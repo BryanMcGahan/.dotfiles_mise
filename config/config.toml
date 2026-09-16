@@ -122,4 +122,4 @@ press_and_hold = false
 
 
 [tasks.bootstrap]
-run = "npx get-pnpm"
+run = "command -v pnpm >/dev/null 2>&1 || npx get-pnpm"
