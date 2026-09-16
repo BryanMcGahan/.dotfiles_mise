@@ -1,4 +1,4 @@
-eval "$(/opt/homebrew/bin shellenv)"
+export PATH="/opt/homebrew/bin:$PATH"
 eval "$(/Users/bmcgahan/.local/bin/mise activate zsh)"
 eval "$(starship init zsh)"
 
