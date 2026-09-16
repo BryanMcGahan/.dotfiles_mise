@@ -63,7 +63,7 @@ zshrc = "activate"
 [bootstrap.macos.dock]
 autohide = true
 orientation = "bottom"
-tilesize = 32
+tilesize = 16
 magnification = true
 largesize = 64
 apps = [
