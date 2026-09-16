@@ -7,10 +7,6 @@ rust = "latest"
 [settings.history]
 sync = "manual"
 
-[history.origin]
-url = "git@github.com:BryanMcGahan/.dotfiles_mise.git"
-branch = "main"
-
 [dotfiles]
 "~/.bin" = { mode = "track" }
 "~/.config/ghostty" = { mode = "track" }
