@@ -20,6 +20,7 @@ return {
     require("catppuccin").setup({
       background = {
         dark = "mocha",
+        light = "latte",
       },
     }),
   },
