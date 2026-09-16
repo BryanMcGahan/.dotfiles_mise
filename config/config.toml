@@ -87,7 +87,6 @@ AppleShowAllExtensions = true
 AppleMeasurementUnits = "Inches"
 AppleMetricUnits = false
 
-
 # Window behavior
 NSWindowShouldDragOnGesture = true
 
