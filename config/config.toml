@@ -68,7 +68,8 @@ magnification = true
 largesize = 64
 apps = [
 	"/Applications/Ghostty.app",
-	"/Applications/Safari.app",
+	"/Applications/Helium.app",
+  "/Applications/Obsidian.app"
 ]
 
 [bootstrap.macos.finder]
